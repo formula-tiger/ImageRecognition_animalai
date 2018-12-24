@@ -1,6 +1,6 @@
 """
 http://flask.pocoo.org/docs/1.0/patterns/fileuploads/
-Flaskの公式ドキュメント保存
+Flaskの公式ドキュメント参考に
 """
 
 import os
@@ -20,10 +20,10 @@ def allowed_file(filename):  # 2つのチェックをしてファイルのアッ
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
         # ファイル名に . が含まれているか。　ファイル名のピリオド以降のところに 指定の拡張子が含まれているかをチェックしている
 
-@app.route('/', methods=['GET', 'POST'])
+@app.route('/', methods=['GET', 'POST'])  # Flask独自の文法
 def upload_file():
     if request.method == 'POST':
-        # check if the post request has the file part
+        # check if the post request has the file
         if 'file' not in request.files:
             flash('ファイルがありません')
             return redirect(request.url)
@@ -38,7 +38,9 @@ def upload_file():
             # 未知のユーザーによるハッキング防止 / => _ に変更するなど
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
             return redirect(url_for('uploaded_file', filename=filename))  # Flaskの url_forメソッドはファイル名を引数に取り、 そのURLを生成する
-    return '''
+
+    # 以下のファイルを返すということ（コメントアウトではない）
+    return '''　　　
     <!doctype html>
     <html>
     <head>
@@ -51,7 +53,6 @@ def upload_file():
     </form>
     </body>
     </html>
-    
     '''
 
 from flask import send_from_directory
