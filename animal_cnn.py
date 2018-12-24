@@ -1,3 +1,9 @@
+"""
+CNN、ニューラルネット、 TensorFlowに関しては以下のURLがわかりやすい
+https://deepinsider.jp/tutor/introtensorflow/whatiscnn
+https://deepage.net/deep_learning/2016/11/07/convolutional_neural_network.html
+"""
+
 from keras.models import Sequential
 from keras.layers import Conv2D, MaxPooling2D
 from keras.layers import Activation, Dropout, Flatten, Dense
