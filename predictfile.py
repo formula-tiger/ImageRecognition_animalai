@@ -5,19 +5,20 @@ Flaskの公式ドキュメント保存
 
 import os
 from flask import Flask, request, redirect, url_for
-from werkzeug.utils import secure_filename  # WSGIの不便さをカバーしてくれているツールセット
+from werkzeug.utils import secure_filename
+# werkzeug => WSGIの不便さをカバーするツールセット
+# secure_filename => ハッキング防止
 
 
+UPLOAD_FOLDER = './uploads'  # アップロードするファイルの保存場所を指定
+ALLOWED_EXTENSIONS = set(['png', 'jpg', 'gif'])  # アップロードできるファイルの拡張子を制限している
 
-UPLOAD_FOLDER = './uploads'
-ALLOWED_EXTENSIONS = set(['png', 'jpg', 'gif'])
-
-app = Flask(__name__)
-app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+app = Flask(__name__)  ＃ アプリをflaskのインスタンスとして初期化
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER  # 13行目で定義しているフォルダ
 
 def allowed_file(filename):  # 2つのチェックをしてファイルのアップロードの可否判定関数
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
-        # ファイル名に . が含まれているか。　ファイル名のピリオド以降のところに 指定の拡張子が含まれているか
+        # ファイル名に . が含まれているか。　ファイル名のピリオド以降のところに 指定の拡張子が含まれているかをチェックしている
 
 @app.route('/', methods=['GET', 'POST'])
 def upload_file():
