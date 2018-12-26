@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="746aa740-2c7d-48b3-b263-5b1d4000133c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/predictfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/predictfile.py" afterDir="false" />
-    </list>
+    <list default="true" id="746aa740-2c7d-48b3-b263-5b1d4000133c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +53,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/predictfile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="253">
+              <caret line="63" column="35" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
               <folding>
                 <element signature="e#80#89#0" expanded="true" />
               </folding>
@@ -91,10 +89,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2551" />
-    <option name="y" value="302" />
-    <option name="width" value="1948" />
-    <option name="height" value="1100" />
+    <option name="y" value="-697" />
+    <option name="width" value="1107" />
+    <option name="height" value="697" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -179,7 +176,7 @@
       <workItem from="1544796214095" duration="7809000" />
       <workItem from="1544862164078" duration="199000" />
       <workItem from="1544863450307" duration="4506000" />
-      <workItem from="1545616416987" duration="5926000" />
+      <workItem from="1545616416987" duration="6486000" />
     </task>
     <task id="LOCAL-00001" summary="CNN解説のURLを animal_cnnの冒頭に追加">
       <created>1545620130441</created>
@@ -192,13 +189,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46822000" />
+    <option name="totallyTimeSpent" value="47382000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2551" y="302" width="1948" height="1100" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="-697" width="1107" height="697" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19359916" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34647888" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -211,8 +207,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.50472194" side_tool="true" visible="true" weight="0.19492386" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49527806" visible="true" weight="0.19492386" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5051643" side_tool="true" visible="true" weight="0.3298969" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49483567" visible="true" weight="0.3298969" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3298969" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -220,7 +216,7 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="right" id="R Packages" order="5" />
-      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.017838405" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.03192488" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29563668" />
@@ -337,8 +333,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/predictfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="253">
+          <caret line="63" column="35" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
           <folding>
             <element signature="e#80#89#0" expanded="true" />
           </folding>
